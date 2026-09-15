@@ -1,0 +1,15 @@
+[
+  {
+    "id": "73a689b7",
+    "filename": "system_design_notes.txt",
+    "saved_path": "C:\\Users\\devil\\OneDrive\\Desktop\\ProjectsATG\\data\\uploads\\73a689b7_system_design_notes.txt",
+    "file_size": 172,
+    "extension": ".txt",
+    "chunk_count": 1,
+    "preview": "ACID transactions guarantee Atomicity, Consistency, Isolation, and Durability. In PostgreSQL, MVCC handles concurrent read and write operations without table-level locking.",
+    "chunks": [
+      "ACID transactions guarantee Atomicity, Consistency, Isolation, and Durability. In PostgreSQL, MVCC handles concurrent read and write operations without table-level locking."
+    ],
+    "created_at": "9ed16cbc-b0ce-11f1-9a84-401a5810af5a"
+  }
+]

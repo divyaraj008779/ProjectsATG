@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Project Interviewer • Codebase-Grounded Technical Viva</title>
+  <meta name="description" content="AI Project Interviewer analyzes your actual GitHub repository structure, dependencies, APIs, and functions to conduct a project-specific technical interview.">
+
+  <!-- Google Fonts: Inter & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/static/css/styles.css">
+
+  <!-- React 18, ReactDOM 18, and Babel Standalone -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+
+  <!-- React Application Mount Point -->
+  <div id="root">
+    <div style="min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#94a3b8; font-family:sans-serif;">
+      <div style="font-size:2rem; margin-bottom:12px;">⚡</div>
+      <div style="font-size:1.1rem; font-weight:600; color:#f8fafc;">Loading AI Project Interviewer...</div>
+      <div style="font-size:0.85rem; margin-top:6px;">Connecting to repository analysis engine</div>
+    </div>
+  </div>
+
+  <!-- React Main Application Script -->
+  <script type="text/babel" src="/static/js/project_app.jsx"></script>
+
+</body>
+</html>

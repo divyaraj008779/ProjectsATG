@@ -1,0 +1,207 @@
+[
+  {
+    "id": "3152dc6f-c620-44c4-8577-9bb6fb90524e",
+    "role": "Senior Python & Cloud Architect",
+    "company": "Apex FinTech",
+    "interview_type": "Technical",
+    "language": "English",
+    "date": "Sep 15, 2026 - 12:00 PM",
+    "overall_score": 40,
+    "question_count": 2,
+    "duration_seconds": 145,
+    "strong_areas": [
+      "Willingness to tackle difficult technical topics"
+    ],
+    "weak_areas": [
+      "Deep technical trade-offs",
+      "STAR format consistency",
+      "Minimizing speech hesitations"
+    ],
+    "details": {
+      "session_id": "3152dc6f-c620-44c4-8577-9bb6fb90524e",
+      "role": "Senior Python & Cloud Architect",
+      "company": "Apex FinTech",
+      "interview_type": "Technical",
+      "language": "English",
+      "started_at": "2026-09-15 11:58:00",
+      "completed_at": "2026-09-15 12:00:44",
+      "duration_seconds": 145,
+      "questions": [
+        {
+          "id": 1,
+          "category": "Technical",
+          "question": "Can you explain the difference between an Array and a Linked List in terms of time and space complexity?",
+          "expected_key_points": [
+            "Clear conceptual definition",
+            "Real-world application or STAR example",
+            "Structured articulation without filler"
+          ],
+          "difficulty": "Medium"
+        },
+        {
+          "id": 2,
+          "category": "Technical",
+          "question": "Explain the difference between SQL and NoSQL databases. When would you choose one over the other?",
+          "expected_key_points": [
+            "Clear conceptual definition",
+            "Real-world application or STAR example",
+            "Structured articulation without filler"
+          ],
+          "difficulty": "Medium"
+        }
+      ],
+      "evaluations": [
+        {
+          "score": 4,
+          "accuracy": "Moderate - Core idea present but lacks precision",
+          "relevance": "Partial - Slightly diverged from core question",
+          "clarity": "Brief - Answer is too short to demonstrate full depth.",
+          "confidence": "Good - Minor filler words noted (like). Overall composed.",
+          "missing_points": [
+            "Mentioning production edge cases",
+            "Linking the answer to measurable business or technical outcomes"
+          ],
+          "suggested_improvement": "Structure your points hierarchically: deliver the punchline in the first 10 seconds, then detail your reasoning.",
+          "better_sample_answer": "A top-tier approach to this question starts with a direct thesis statement, provides technical context, and illustrates with an authentic example. For instance, explaining the underlying mechanism first, addressing common pitfalls, and showing how you ensure testability in high-availability systems.",
+          "coach_tips": [
+            "Structure your response with: 1) Direct Answer, 2) Technical Proof/Reasoning, 3) Real-world Impact.",
+            "Replace filler words ('um', 'like', 'sort of') with brief, deliberate pauses to convey authority.",
+            "Whenever possible, quantify your past impact with metrics (e.g., 'reduced query latency by 40%').",
+            "Conclude with a forward-looking summary statement to hand the conversation back to the interviewer."
+          ],
+          "follow_up_question": "Follow-up: How would you index this database to avoid full-table scans under millions of concurrent rows?"
+        }
+      ],
+      "report": {
+        "overall_score": 40,
+        "dimensions": {
+          "Technical Knowledge": 38,
+          "Communication": 38,
+          "Relevance": 39,
+          "Answer Structure": 38,
+          "Confidence": 36,
+          "Problem Solving": 39
+        },
+        "strong_areas": [
+          "Willingness to tackle difficult technical topics"
+        ],
+        "weak_areas": [
+          "Deep technical trade-offs",
+          "STAR format consistency",
+          "Minimizing speech hesitations"
+        ],
+        "questions_needing_practice": [
+          {
+            "question_number": 1,
+            "question": "Can you explain the difference between an Array and a Linked List in terms of time and space complexity?",
+            "user_score": 4,
+            "sample_answer": "A top-tier approach to this question starts with a direct thesis statement, provides technical context, and illustrates with an authentic example. For instance, explaining the underlying mechanism first, addressing common pitfalls, and showing how you ensure testability in high-availability systems.",
+            "key_advice": "Structure your points hierarchically: deliver the punchline in the first 10 seconds, then detail your reasoning."
+          }
+        ],
+        "recommended_topics": [
+          "System Architecture & Scaling Bottlenecks",
+          "Behavioral STAR Framework (Situation, Task, Action, Result)",
+          "Database Indexing & Query Plan Optimization",
+          "Mock Interview Speech Pacing & Strategic Pausing"
+        ]
+      }
+    }
+  },
+  {
+    "id": "a634498d-f8bb-4ef0-ba54-726a7920f2ca",
+    "role": "Full Stack Python Developer",
+    "company": "Fintech Co",
+    "interview_type": "Technical",
+    "language": "English",
+    "date": "Sep 15, 2026 - 11:58 AM",
+    "overall_score": 70,
+    "question_count": 1,
+    "duration_seconds": 120,
+    "strong_areas": [
+      "Willingness to tackle difficult technical topics"
+    ],
+    "weak_areas": [
+      "Adding quantifiable project metrics",
+      "Nuanced production edge cases"
+    ],
+    "details": {
+      "session_id": "a634498d-f8bb-4ef0-ba54-726a7920f2ca",
+      "role": "Full Stack Python Developer",
+      "company": "Fintech Co",
+      "interview_type": "Technical",
+      "language": "English",
+      "started_at": "2026-09-15 10:00:00",
+      "completed_at": "2026-09-15 11:58:09",
+      "duration_seconds": 120,
+      "questions": [
+        {
+          "id": 1,
+          "category": "Technical",
+          "question": "Explain the difference between mutable and immutable types in Python, and how pass-by-object-reference impacts functions.",
+          "expected_key_points": [
+            "Clear conceptual definition",
+            "Real-world application or STAR example",
+            "Structured articulation without filler"
+          ],
+          "difficulty": "Medium"
+        }
+      ],
+      "evaluations": [
+        {
+          "score": 7,
+          "accuracy": "High - Conceptually accurate",
+          "relevance": "High - Directly answered the prompt",
+          "clarity": "Good - Good start, but could elaborate on key technical trade-offs.",
+          "confidence": "Strong - Confident, authoritative delivery with no noticeable filler words.",
+          "missing_points": [
+            "Mentioning production edge cases",
+            "Linking the answer to measurable business or technical outcomes"
+          ],
+          "suggested_improvement": "Structure your points hierarchically: deliver the punchline in the first 10 seconds, then detail your reasoning.",
+          "better_sample_answer": "A top-tier approach to this question starts with a direct thesis statement, provides technical context, and illustrates with an authentic example. For instance, explaining the underlying mechanism first, addressing common pitfalls, and showing how you ensure testability in high-availability systems.",
+          "coach_tips": [
+            "Structure your response with: 1) Direct Answer, 2) Technical Proof/Reasoning, 3) Real-world Impact.",
+            "Replace filler words ('um', 'like', 'sort of') with brief, deliberate pauses to convey authority.",
+            "Whenever possible, quantify your past impact with metrics (e.g., 'reduced query latency by 40%').",
+            "Conclude with a forward-looking summary statement to hand the conversation back to the interviewer."
+          ],
+          "follow_up_question": "Follow-up: That's a solid explanation. Can you discuss why software engineers often say 'favor composition over inheritance'?"
+        }
+      ],
+      "report": {
+        "overall_score": 70,
+        "dimensions": {
+          "Technical Knowledge": 69,
+          "Communication": 69,
+          "Relevance": 69,
+          "Answer Structure": 64,
+          "Confidence": 62,
+          "Problem Solving": 66
+        },
+        "strong_areas": [
+          "Willingness to tackle difficult technical topics"
+        ],
+        "weak_areas": [
+          "Adding quantifiable project metrics",
+          "Nuanced production edge cases"
+        ],
+        "questions_needing_practice": [
+          {
+            "question_number": 1,
+            "question": "Explain the difference between mutable and immutable types in Python, and how pass-by-object-reference impacts functions.",
+            "user_score": 7,
+            "sample_answer": "A top-tier approach to this question starts with a direct thesis statement, provides technical context, and illustrates with an authentic example. For instance, explaining the underlying mechanism first, addressing common pitfalls, and showing how you ensure testability in high-availability systems.",
+            "key_advice": "Structure your points hierarchically: deliver the punchline in the first 10 seconds, then detail your reasoning."
+          }
+        ],
+        "recommended_topics": [
+          "System Architecture & Scaling Bottlenecks",
+          "Behavioral STAR Framework (Situation, Task, Action, Result)",
+          "Database Indexing & Query Plan Optimization",
+          "Mock Interview Speech Pacing & Strategic Pausing"
+        ]
+      }
+    }
+  }
+]

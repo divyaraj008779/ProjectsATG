@@ -1,0 +1,14 @@
+{
+  "name": "divyaraj singh",
+  "education": "b.tech in cs",
+  "skills": "Python, React, FastApi, SQL, Docker, System Design",
+  "projects": [
+    {
+      "name": "Bank Management System in Python",
+      "tech": "Python, SQLite, Tkinter, Pytest",
+      "description": "Engineered an ACID-compliant core banking prototype supporting automated account ledgers and transaction concurrency."
+    }
+  ],
+  "certifications": "AWS Certified Developer Associate",
+  "experience": "2 years of software engineering experience"
+}

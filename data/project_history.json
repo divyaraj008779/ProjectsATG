@@ -1,0 +1,67 @@
+[
+  {
+    "id": "b397452a-bc9f-43a3-b520-411aa1d2fc8f",
+    "project_name": "mern-ecommerce-platform",
+    "repo_url": "https://github.com/dev-showcase/mern-ecommerce-platform",
+    "date": "Sep 15, 2026 - 12:30 PM",
+    "overall_score": 70,
+    "question_count": 2,
+    "duration_seconds": 180,
+    "tech_stack": {
+      "frontend": "React 18, Redux Toolkit, TailwindCSS, Axios",
+      "backend": "Node.js, Express.js, Express-Validator, Morgan",
+      "database": "MongoDB, Mongoose ODM",
+      "authentication": "JWT (JSON Web Tokens), bcryptjs, HTTP-only Cookies",
+      "apis": "RESTful API (JSON), Stripe Payment Intents API",
+      "tools": "Docker, Jest, Postman"
+    },
+    "report": {
+      "overall_score": 70,
+      "dimensions": {
+        "Project Understanding": 73,
+        "Frontend Understanding": 68,
+        "Backend Understanding": 71,
+        "Database Understanding": 68,
+        "API Understanding": 72,
+        "Architecture Understanding": 65,
+        "Communication": 70
+      },
+      "strong_areas": [
+        "Good high-level familiarity with the project's purpose"
+      ],
+      "weak_areas": [
+        "Deep dive into edge-case failure modes",
+        "Quantifying latency and scale limitations"
+      ],
+      "questions_struggled_with": [
+        {
+          "question_number": 1,
+          "question": "Can you give an architectural overview of 'mern-ecommerce-platform'? What primary problem does it solve, and how are the responsibilities divided between your React 18, Redux Toolkit, TailwindCSS, Axios client and Node.js, Express.js, Express-Validator, Morgan service?",
+          "type": "Project Overview",
+          "user_score": 7,
+          "what_was_missing": "Could have tied your explanation more directly to measurable technical trade-offs and production edge cases.",
+          "suggested_answer": "In 'mern-ecommerce-platform', the architecture is designed around decoupled tiers. The frontend communicates with backend services over predictable REST contracts. State mutations are validated on both client and server, and persistence is isolated behind clean repository patterns."
+        },
+        {
+          "question_number": 2,
+          "question": "Authentication in your repository relies on JWT (JSON Web Tokens), bcryptjs, HTTP-only Cookies. Walk me through your auth flow: where is the user's credential validated, how is the session token generated, and how do you verify authorization headers on protected routes?",
+          "type": "Authentication & Security",
+          "user_score": 7,
+          "what_was_missing": "Could have explained token expiration intervals, refresh token rotation, or how the secret key is securely injected via environment variables.",
+          "suggested_answer": "In this project, user authentication begins when credentials hit the login endpoint. Passwords are verified against stored hashes using bcrypt. Upon verification, a signed JWT containing the user ID is generated with HMAC-SHA256 and returned. Protected routes pass through our auth middleware, which verifies the token signature, checks expiration, and mounts user context onto the request."
+        }
+      ],
+      "recommended_topics": [
+        "Asynchronous error handling and connection pooling in Node.js, Express.js, Express-Validator, Morgan",
+        "State immutability and component render optimization in React 18, Redux Toolkit, TailwindCSS, Axios",
+        "Database transaction isolation and index execution plans in MongoDB, Mongoose ODM",
+        "Defensive API design: Rate-limiting, CORS, and JWT rotation"
+      ],
+      "recommended_files_to_study": [
+        "server/server.js",
+        "server/controllers/authController.js",
+        "server/routes/orderRoutes.js"
+      ]
+    }
+  }
+]

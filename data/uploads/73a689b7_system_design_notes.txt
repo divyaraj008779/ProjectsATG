@@ -1,0 +1,1 @@
+ACID transactions guarantee Atomicity, Consistency, Isolation, and Durability. In PostgreSQL, MVCC handles concurrent read and write operations without table-level locking.
